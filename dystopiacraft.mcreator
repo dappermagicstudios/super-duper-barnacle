@@ -2,20 +2,20 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "DystopiaMenuKey",
-      "type": "keybind",
+      "name": "Desert",
+      "type": "biome",
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "dystopia_menu_key"
+      "registry_name": "desert"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "key.dystopiacraft.dystopia_menu_key": "Dystopia Menu Key"
+      "biome.dystopiacraft.desert": "Desert"
     }
   },
   "foldersRoot": {
