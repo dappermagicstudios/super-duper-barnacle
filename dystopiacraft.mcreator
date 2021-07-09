@@ -1,0 +1,43 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DystopiaMenuKey",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dystopia_menu_key"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "key.dystopiacraft.dystopia_menu_key": "Dystopia Menu Key"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dystopiacraft",
+    "modName": "DystopiaCraft",
+    "version": "1.0.0",
+    "author": "james, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.dystopiacraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100112313
+}
