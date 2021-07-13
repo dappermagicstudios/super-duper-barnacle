@@ -77,6 +77,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "desolate_vines"
+    },
+    {
+      "name": "Backpack",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "backpack"
     }
   ],
   "variable_elements": [
