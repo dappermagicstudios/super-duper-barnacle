@@ -64,6 +64,9 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [],
+    "onDestroyedByPlayer": {
+      "name": "ItemDestroyedByPlayer"
+    }
   }
 }

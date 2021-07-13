@@ -10,7 +10,7 @@
       "item": "minecraft:stick"
     },
     "1": {
-      "item": "dystopiacraft:decaying_planks"
+      "item": "dystopiacraft:deleted_mod_element"
     },
     "2": {
       "item": "minecraft:stick"
@@ -19,14 +19,14 @@
       "item": "minecraft:stick"
     },
     "4": {
-      "item": "dystopiacraft:decaying_planks"
+      "item": "dystopiacraft:deleted_mod_element"
     },
     "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "dystopiacraft:decaying_fence_gate",
+    "item": "dystopiacraft:deleted_mod_element",
     "count": 1
   }
 }

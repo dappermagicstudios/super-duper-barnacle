@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "dystopiacraft:decaying_wood",
     "dystopiacraft:decaying_log"
   ]
 }

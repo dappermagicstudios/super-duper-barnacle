@@ -388,6 +388,7 @@ public class AssignClassProcedure extends DystopiacraftModElements.ModElement {
 			}
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
 				GiveStarterItemsProcedure.executeProcedure($_dependencies);
 			}
 		}
