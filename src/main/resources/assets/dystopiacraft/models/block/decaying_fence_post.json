@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "dystopiacraft:blocks/decaying_planks",
+    "particle": "dystopiacraft:blocks/decaying_planks"
+  }
+}

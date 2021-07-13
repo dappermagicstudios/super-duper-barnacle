@@ -1,0 +1,13 @@
+{
+  "group": "dystopiacraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:decaying_log"
+    }
+  ],
+  "result": {
+    "item": "dystopiacraft:decaying_planks",
+    "count": 4
+  }
+}

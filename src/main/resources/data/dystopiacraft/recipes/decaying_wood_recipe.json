@@ -1,0 +1,26 @@
+{
+  "group": "dystopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dystopiacraft:decaying_log"
+    },
+    "1": {
+      "item": "dystopiacraft:decaying_log"
+    },
+    "2": {
+      "item": "dystopiacraft:decaying_log"
+    },
+    "3": {
+      "item": "dystopiacraft:decaying_log"
+    }
+  },
+  "result": {
+    "item": "dystopiacraft:decaying_wood",
+    "count": 3
+  }
+}

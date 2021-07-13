@@ -1,0 +1,20 @@
+{
+  "_fv": 17,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DecayingWood"
+      },
+      {
+        "value": "CUSTOM:DecayingLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "decaying_log",
+    "namespace": "forge"
+  }
+}

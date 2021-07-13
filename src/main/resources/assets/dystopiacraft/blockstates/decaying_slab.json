@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dystopiacraft:block/decaying_slab"
+    },
+    "type=top": {
+      "model": "dystopiacraft:block/decaying_slab_top"
+    },
+    "type=double": {
+      "model": "dystopiacraft:block/decaying_slab_full"
+    }
+  }
+}

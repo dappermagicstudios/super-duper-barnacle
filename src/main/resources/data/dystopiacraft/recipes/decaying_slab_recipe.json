@@ -1,0 +1,22 @@
+{
+  "group": "dystopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "1": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "2": {
+      "item": "dystopiacraft:decaying_planks"
+    }
+  },
+  "result": {
+    "item": "dystopiacraft:decaying_slab",
+    "count": 6
+  }
+}

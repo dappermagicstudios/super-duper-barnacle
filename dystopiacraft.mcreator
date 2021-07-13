@@ -86,6 +86,159 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "backpack"
+    },
+    {
+      "name": "DecayingWood",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_wood"
+    },
+    {
+      "name": "DecayingLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_log"
+    },
+    {
+      "name": "DecayingPlanks",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_planks"
+    },
+    {
+      "name": "DecayingLeaves",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_leaves"
+    },
+    {
+      "name": "DecayingStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_stairs"
+    },
+    {
+      "name": "DecayingSlab",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_slab"
+    },
+    {
+      "name": "DecayingFence",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_fence"
+    },
+    {
+      "name": "DecayingFenceGate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_fence_gate"
+    },
+    {
+      "name": "DecayingItemsTag",
+      "type": "tag",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_items_tag"
+    },
+    {
+      "name": "DecayingWoodRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_wood_recipe"
+    },
+    {
+      "name": "DecayingPlanksRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_planks_recipe"
+    },
+    {
+      "name": "DecayingStairsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_stairs_recipe"
+    },
+    {
+      "name": "DecayingSlabRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_slab_recipe"
+    },
+    {
+      "name": "DecayingFenceRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_fence_recipe"
+    },
+    {
+      "name": "DecayingFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_fence_gate_recipe"
+    },
+    {
+      "name": "DecayingStickRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "decaying_stick_recipe"
+    },
+    {
+      "name": "Desolateforest",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desolateforest"
     }
   ],
   "variable_elements": [
@@ -135,10 +288,19 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.dystopiacraft.desolate_vines": "Desolate Vines",
+      "block.dystopiacraft.decaying_slab": "Decaying Slab",
       "biome.dystopiacraft.desolate_desert": "Desolate Desert",
       "item.dystopiacraft.heirloom_knife": "Heirloom Knife",
-      "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter"
+      "block.dystopiacraft.decaying_log": "Decaying Log",
+      "block.dystopiacraft.decaying_fence_gate": "Decaying Fence Gate",
+      "block.dystopiacraft.decaying_stairs": "Decaying Stairs",
+      "block.dystopiacraft.decaying_leaves": "Decaying Leaves",
+      "block.dystopiacraft.decaying_wood": "Decaying Wood",
+      "block.dystopiacraft.desolate_vines": "Desolate Vines",
+      "block.dystopiacraft.decaying_planks": "Decaying Planks",
+      "block.dystopiacraft.decaying_fence": "Decaying Fence",
+      "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter",
+      "biome.dystopiacraft.desolateforest": "Desolateforest"
     }
   },
   "foldersRoot": {

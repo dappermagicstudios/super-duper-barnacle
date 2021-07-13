@@ -1,0 +1,20 @@
+{
+  "group": "dystopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "1": {
+      "item": "dystopiacraft:decaying_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

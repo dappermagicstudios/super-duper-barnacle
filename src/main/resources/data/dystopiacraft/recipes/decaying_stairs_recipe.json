@@ -1,0 +1,33 @@
+{
+  "group": "dystopiacraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "3": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "4": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "6": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "7": {
+      "item": "dystopiacraft:decaying_planks"
+    },
+    "8": {
+      "item": "dystopiacraft:decaying_planks"
+    }
+  },
+  "result": {
+    "item": "dystopiacraft:decaying_stairs",
+    "count": 4
+  }
+}

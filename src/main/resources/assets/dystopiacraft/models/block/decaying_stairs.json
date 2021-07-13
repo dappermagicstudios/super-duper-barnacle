@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "dystopiacraft:blocks/decaying_planks",
+    "top": "dystopiacraft:blocks/decaying_planks",
+    "side": "dystopiacraft:blocks/decaying_planks"
+  }
+}

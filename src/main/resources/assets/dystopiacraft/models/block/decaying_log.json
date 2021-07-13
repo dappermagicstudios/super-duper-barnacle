@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dystopiacraft:blocks/decaying_log_top",
+    "up": "dystopiacraft:blocks/decaying_log_top",
+    "north": "dystopiacraft:blocks/decaying_log_side",
+    "east": "dystopiacraft:blocks/decaying_log_side",
+    "south": "dystopiacraft:blocks/decaying_log_side",
+    "west": "dystopiacraft:blocks/decaying_log_side",
+    "particle": "dystopiacraft:blocks/decaying_log_top"
+  }
+}
