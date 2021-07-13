@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dystopiacraft:block/the_desolate_planet_portal_ew"
+    },
+    "axis=x": {
+      "model": "dystopiacraft:block/the_desolate_planet_portal_ns"
+    }
+  }
+}
