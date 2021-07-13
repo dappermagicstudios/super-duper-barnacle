@@ -19,7 +19,11 @@
     "usageCount": 100,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:DesolateVines"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

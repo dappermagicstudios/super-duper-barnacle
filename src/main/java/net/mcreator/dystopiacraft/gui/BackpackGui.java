@@ -75,7 +75,7 @@ public class BackpackGui extends DystopiacraftModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(16);
+			this.internal = new ItemStackHandler(27);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -145,6 +145,28 @@ public class BackpackGui extends DystopiacraftModElements.ModElement {
 			}));
 			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 133, 26) {
 			}));
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 7, 26) {
+			}));
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 26) {
+			}));
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 44) {
+			}));
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 44) {
+			}));
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 43, 44) {
+			}));
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 61, 44) {
+			}));
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 79, 44) {
+			}));
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 44) {
+			}));
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 44) {
+			}));
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 44) {
+			}));
+			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 44) {
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -170,18 +192,18 @@ public class BackpackGui extends DystopiacraftModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 16) {
-					if (!this.mergeItemStack(itemstack1, 16, this.inventorySlots.size(), true)) {
+				if (index < 27) {
+					if (!this.mergeItemStack(itemstack1, 27, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 16, false)) {
-					if (index < 16 + 27) {
-						if (!this.mergeItemStack(itemstack1, 16 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 27, false)) {
+					if (index < 27 + 27) {
+						if (!this.mergeItemStack(itemstack1, 27 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 16, 16 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 27, 27 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
