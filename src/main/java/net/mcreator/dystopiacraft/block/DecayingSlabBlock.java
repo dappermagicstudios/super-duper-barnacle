@@ -1,34 +1,17 @@
 
 package net.mcreator.dystopiacraft.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.state.properties.SlabType;
-import net.minecraft.loot.LootContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.SlabBlock;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.dystopiacraft.DystopiacraftModElements;
-
-import java.util.List;
-import java.util.Collections;
 
 @DystopiacraftModElements.ModElement.Tag
 public class DecayingSlabBlock extends DystopiacraftModElements.ModElement {
+
 	@ObjectHolder("dystopiacraft:decaying_slab")
 	public static final Block block = null;
+
 	public DecayingSlabBlock(DystopiacraftModElements instance) {
 		super(instance, 13);
+
 	}
 
 	@Override
@@ -37,9 +20,14 @@ public class DecayingSlabBlock extends DystopiacraftModElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends SlabBlock {
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 1.5f).setLightLevel(s -> 0));
+			super(
+
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 1.5f).setLightLevel(s -> 0));
+
 			setRegistryName("decaying_slab");
 		}
 
@@ -55,5 +43,7 @@ public class DecayingSlabBlock extends DystopiacraftModElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
 		}
+
 	}
+
 }

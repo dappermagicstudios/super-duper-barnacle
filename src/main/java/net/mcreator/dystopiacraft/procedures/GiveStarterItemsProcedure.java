@@ -1,22 +1,11 @@
 package net.mcreator.dystopiacraft.procedures;
 
-import net.minecraftforge.items.ItemHandlerHelper;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.Entity;
-
-import net.mcreator.dystopiacraft.item.HeirloomKnifeItem;
-import net.mcreator.dystopiacraft.DystopiacraftModVariables;
-import net.mcreator.dystopiacraft.DystopiacraftModElements;
-import net.mcreator.dystopiacraft.DystopiacraftMod;
-
-import java.util.Map;
-
 @DystopiacraftModElements.ModElement.Tag
 public class GiveStarterItemsProcedure extends DystopiacraftModElements.ModElement {
+
 	public GiveStarterItemsProcedure(DystopiacraftModElements instance) {
 		super(instance, 5);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -25,7 +14,9 @@ public class GiveStarterItemsProcedure extends DystopiacraftModElements.ModEleme
 				DystopiacraftMod.LOGGER.warn("Failed to load dependency entity for procedure GiveStarterItems!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
+
 		if ((((entity.getCapability(DystopiacraftModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new DystopiacraftModVariables.PlayerVariables())).PlayerClass) == 1)) {
 			{
@@ -41,5 +32,7 @@ public class GiveStarterItemsProcedure extends DystopiacraftModElements.ModEleme
 				ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 			}
 		}
+
 	}
+
 }

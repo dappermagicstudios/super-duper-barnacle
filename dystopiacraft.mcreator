@@ -281,6 +281,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "wild_cat"
+    },
+    {
+      "name": "DesolateVine",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desolate_vine"
+    },
+    {
+      "name": "SayClassCommandExecuted",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "say_class_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Folder",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "folder"
     }
   ],
   "variable_elements": [
