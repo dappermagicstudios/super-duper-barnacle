@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:DesolateDesert"
+      },
+      {
+        "value": "CUSTOM:Desolateforest"
       }
     ],
     "worldGenType": "Normal world gen",

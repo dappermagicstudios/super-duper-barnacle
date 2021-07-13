@@ -70,15 +70,6 @@
       }
     },
     {
-      "name": "DesolateVines",
-      "type": "plant",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "desolate_vines"
-    },
-    {
       "name": "Backpack",
       "type": "gui",
       "sortid": 7,
@@ -272,6 +263,41 @@
           }
         ]
       }
+    },
+    {
+      "name": "Folder",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "folder"
+    },
+    {
+      "name": "DesolateVine",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desolate_vine"
+    },
+    {
+      "name": "SayClassCommandExecuted",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "say_class_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -321,10 +347,20 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.dystopiacraft.decaying_slab": "Decaying Slab",
+      "item.dystopiacraft.folder": "Folder",
       "biome.dystopiacraft.desolate_desert": "Desolate Desert",
       "item.dystopiacraft.heirloom_knife": "Heirloom Knife",
-      "block.dystopiacraft.desolate_vines": "Desolate Vines",
-      "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter"
+      "block.dystopiacraft.decaying_log": "Decaying Log",
+      "block.dystopiacraft.decaying_fence_gate": "Decaying Fence Gate",
+      "block.dystopiacraft.decaying_stairs": "Decaying Stairs",
+      "block.dystopiacraft.decaying_leaves": "Decaying Leaves",
+      "block.dystopiacraft.desolate_vine": "Desolate Vine",
+      "block.dystopiacraft.decaying_wood": "Decaying Wood",
+      "block.dystopiacraft.decaying_planks": "Decaying Planks",
+      "block.dystopiacraft.decaying_fence": "Decaying Fence",
+      "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter",
+      "biome.dystopiacraft.desolateforest": "Desolateforest"
     }
   },
   "foldersRoot": {

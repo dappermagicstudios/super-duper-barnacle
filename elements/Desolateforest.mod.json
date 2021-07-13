@@ -36,7 +36,7 @@
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "biomeType": "WARM",
-    "spawnBiome": true,
+    "spawnBiome": false,
     "biomeWeight": 9,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
@@ -60,7 +60,7 @@
       "value": "CUSTOM:DecayingLeaves"
     },
     "treeVines": {
-      "value": "CUSTOM:DesolateVines"
+      "value": "CUSTOM:DesolateVine"
     },
     "treeFruits": {
       "value": "Blocks.AIR"
@@ -76,10 +76,7 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "oceanRuinType": "NONE",
-    "defaultFeatures": [
-      "Caves",
-      "Ores"
-    ],
+    "defaultFeatures": [],
     "spawnEntries": []
   }
 }
