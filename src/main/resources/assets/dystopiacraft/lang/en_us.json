@@ -1,6 +1,17 @@
 {
-  "block.dystopiacraft.desolate_vines": "Desolate Vines",
+  "block.dystopiacraft.decaying_slab": "Decaying Slab",
+  "entity.dystopiacraft.wild_cat": "Wild Cat",
   "biome.dystopiacraft.desolate_desert": "Desolate Desert",
   "item.dystopiacraft.heirloom_knife": "Heirloom Knife",
-  "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter"
+  "block.dystopiacraft.decaying_log": "Decaying Log",
+  "block.dystopiacraft.decaying_fence_gate": "Decaying Fence Gate",
+  "block.dystopiacraft.decaying_stairs": "Decaying Stairs",
+  "block.dystopiacraft.decaying_leaves": "Decaying Leaves",
+  "block.dystopiacraft.decaying_wood": "Decaying Wood",
+  "block.dystopiacraft.desolate_vines": "Desolate Vines",
+  "block.dystopiacraft.decaying_planks": "Decaying Planks",
+  "block.dystopiacraft.decaying_fence": "Decaying Fence",
+  "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter",
+  "item.dystopiacraft.wild_cat_spawn_egg": "Wild Cat Spawn Egg",
+  "biome.dystopiacraft.desolateforest": "Desolateforest"
 }
