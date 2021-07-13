@@ -21,6 +21,48 @@
           }
         ]
       }
+    },
+    {
+      "name": "HeirloomKnife",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heirloom_knife"
+    },
+    {
+      "name": "DesolateDesert",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desolate_desert"
+    },
+    {
+      "name": "TheDesolatePlanet",
+      "type": "dimension",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_desolate_planet",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "GiveStarterItems",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_starter_items",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [
@@ -69,7 +111,11 @@
   ],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.dystopiacraft.desolate_desert": "Desolate Desert",
+      "item.dystopiacraft.heirloom_knife": "Heirloom Knife",
+      "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter"
+    }
   },
   "foldersRoot": {
     "name": "~",
