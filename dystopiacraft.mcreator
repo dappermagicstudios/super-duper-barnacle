@@ -61,7 +61,12 @@
       "ids": {},
       "registry_name": "give_starter_items",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
