@@ -63,6 +63,15 @@
       "metadata": {
         "dependencies": []
       }
+    },
+    {
+      "name": "DesolateVines",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "desolate_vines"
     }
   ],
   "variable_elements": [
@@ -112,6 +121,7 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.dystopiacraft.desolate_vines": "Desolate Vines",
       "biome.dystopiacraft.desolate_desert": "Desolate Desert",
       "item.dystopiacraft.heirloom_knife": "Heirloom Knife",
       "item.dystopiacraft.the_desolate_planet": "The Desolate Planet Portal Igniter"

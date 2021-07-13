@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "dystopiacraft:blocks/vine",
+    "particle": "dystopiacraft:blocks/vine"
+  }
+}
